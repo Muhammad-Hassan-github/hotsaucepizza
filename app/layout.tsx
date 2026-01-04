@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Hot & Souce Pizza",
     description: "Order delicious pizza online easily via WhatsApp. Free home delivery!",
-    url: "https://yourdomain.com", // <-- replace with your deployed domain
+    url: "https://hotsauce-pizza.vercel.app", // <-- replace with your deployed domain
     siteName: "Hot & Souce Pizza",
     images: [
       {
