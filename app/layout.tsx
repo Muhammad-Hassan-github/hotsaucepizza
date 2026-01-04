@@ -39,7 +39,7 @@ openGraph: {
   siteName: "Hot & Souce Pizza",
   images: [
     {
-      url: "https://hotsauce-pizza.vercel.app/images/share-pizza.jpg",
+      url: "https://hotsauce-pizza.vercel.app/images/share.jpg",
       width: 1200,
       height: 630,
       alt: "Hot & Souce Pizza",
@@ -51,7 +51,7 @@ twitter: {
   card: "summary_large_image",
   title: "Hot & Souce Pizza",
   description: "Order delicious pizza online easily via WhatsApp. Free home delivery!",
-  images: ["https://hotsauce-pizza.vercel.app/images/share-pizza.jpg"],
+  images: ["https://hotsauce-pizza.vercel.app/images/share.jpg"],
 },
 };
 
