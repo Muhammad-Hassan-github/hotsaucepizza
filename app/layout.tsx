@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     siteName: "Hot & Souce Pizza",
     images: [
       {
-        url: "https://yourdomain.com/images/og-image.jpg", // <-- replace with share image
+        url: "https://hotsauce-pizza.vercel.app/images/baharikababPizza.jpg", // <-- replace with share image
         width: 1200,
         height: 630,
         alt: "Hot & Souce Pizza",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Hot & Souce Pizza",
     description: "Order delicious pizza online easily via WhatsApp. Free home delivery!",
-    images: ["https://yourdomain.com/images/og-image.jpg"], // <-- same share image
+    images: ["https://hotsauce-pizza.vercel.app/images/baharikababPizza.jpg"], // <-- same share image
   },
 };
 
