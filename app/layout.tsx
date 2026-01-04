@@ -35,11 +35,11 @@ export const metadata: Metadata = {
 openGraph: {
   title: "Hot & Souce Pizza",
   description: "Order delicious pizza online easily via WhatsApp. Free home delivery!",
-  url: "https://hotsauce-pizza.vercel.app",
+  url: "https://hot-saucepizza.vercel.app/",
   siteName: "Hot & Souce Pizza",
   images: [
     {
-      url: "https://hotsauce-pizza.vercel.app/images/logo.jpg",
+      url: "https://hot-saucepizza.vercel.app/images/logo.jpg",
       width: 1200,
       height: 630,
       alt: "Hot & Souce Pizza",
@@ -51,7 +51,7 @@ twitter: {
   card: "summary_large_image",
   title: "Hot & Souce Pizza",
   description: "Order delicious pizza online easily via WhatsApp. Free home delivery!",
-  images: ["https://hotsauce-pizza.vercel.app/images/logo.jpg"],
+  images: ["https://hot-saucepizza.vercel.app/images/logo.jpg"],
 },
 };
 
