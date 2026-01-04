@@ -53,7 +53,6 @@ twitter: {
   description: "Order delicious pizza online easily via WhatsApp. Free home delivery!",
   images: ["https://hotsauce-pizza.vercel.app/images/share-pizza.jpg"],
 },
-
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
