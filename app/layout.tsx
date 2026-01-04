@@ -32,27 +32,28 @@ export const metadata: Metadata = {
       sizes: "512x512",
     },
   ],
-  openGraph: {
-    title: "Hot & Souce Pizza",
-    description: "Order delicious pizza online easily via WhatsApp. Free home delivery!",
-    url: "https://hotsauce-pizza.vercel.app", // <-- replace with your deployed domain
-    siteName: "Hot & Souce Pizza",
-    images: [
-      {
-        url: "https://hotsauce-pizza.vercel.app/images/baharikababPizza.jpg", // <-- replace with share image
-        width: 1200,
-        height: 630,
-        alt: "Hot & Souce Pizza",
-      },
-    ],
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Hot & Souce Pizza",
-    description: "Order delicious pizza online easily via WhatsApp. Free home delivery!",
-    images: ["https://hotsauce-pizza.vercel.app/images/baharikababPizza.jpg"], // <-- same share image
-  },
+openGraph: {
+  title: "Hot & Souce Pizza",
+  description: "Order delicious pizza online easily via WhatsApp. Free home delivery!",
+  url: "https://hotsauce-pizza.vercel.app",
+  siteName: "Hot & Souce Pizza",
+  images: [
+    {
+      url: "https://hotsauce-pizza.vercel.app/images/share-pizza.jpg",
+      width: 1200,
+      height: 630,
+      alt: "Hot & Souce Pizza",
+    },
+  ],
+  type: "website",
+},
+twitter: {
+  card: "summary_large_image",
+  title: "Hot & Souce Pizza",
+  description: "Order delicious pizza online easily via WhatsApp. Free home delivery!",
+  images: ["https://hotsauce-pizza.vercel.app/images/share-pizza.jpg"],
+},
+
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
